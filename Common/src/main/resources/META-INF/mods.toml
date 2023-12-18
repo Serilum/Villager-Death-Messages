@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Villager%20Death%20Messages"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Villager%20Death%20Messages"
 logoFile="icon.png"
 
 [[mods]]
 modId="villagerdeathmessages"
-version="3.2"
+version="3.3"
 displayName="Villager Death Messages"
-displayURL="https://curseforge.com/minecraft/mc-mods/villager-death-messages"
+displayURL="https://serilum.com/mod/villager-death-messages"
 authors="Rick South"
 description='''Broadcasts an informational death message whenever a villager passes away.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.villagerdeathmessages]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.13,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.villagerdeathmessages]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.4]"
     ordering="NONE"
