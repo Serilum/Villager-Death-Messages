@@ -1,6 +1,7 @@
 package com.natamus.villagerdeathmessages;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.villagerdeathmessages.neoforge.config.IntegrateNeoForgeConfig;
 import com.natamus.villagerdeathmessages.neoforge.events.NeoForgeVillagerEvent;
 import com.natamus.villagerdeathmessages.util.Reference;
@@ -14,6 +15,10 @@ import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();
