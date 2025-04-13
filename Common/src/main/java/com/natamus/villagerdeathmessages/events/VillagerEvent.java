@@ -43,12 +43,9 @@ public class VillagerEvent {
 			VillagerProfession prof = d.profession().value();
 			
 			if (prof != null) {
-				String profession = "";
-				if (!prof.toString().equals("none")) {
-					profession = prof.toString();
-				}
+				String profession = prof.name().getString();
 				
-				if (!profession.equals("")) {
+				if (!profession.equals("Villager")) {
 					prefix = "A " + profession + " villager";
 					if (villager.hasCustomName()) {
 						prefix = villager.getName().getString() + " the " + profession;
