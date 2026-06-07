@@ -1,4 +1,6 @@
 package com.natamus.villagerdeathmessages.events;
+import net.minecraft.network.chat.Component;
+import com.natamus.collective.functions.MessageFunctions;
 
 import com.natamus.collective.functions.EntityFunctions;
 import com.natamus.collective.functions.StringFunctions;
@@ -85,15 +87,13 @@ public class VillagerEvent {
 			imsourcename = imsourcename.split("\\.")[0];
 		}
 		
-		// Position	
-		String locstring = "";
+		// Position
+		Component locationComponent = Component.empty();
 		if (ConfigHandler.showLocation) {
 			Vec3 loc = entity.position();
-			String location = "x=" + (int)loc.x + ", y=" + (int)loc.y + ", z=" + (int)loc.z;
-			
-			locstring = " at " + location;
+			locationComponent = Component.translatable("collective.villagerdeathmessages.message.location", (int)loc.x, (int)loc.y, (int)loc.z);
 		}
-		
-		StringFunctions.broadcastMessage(world, prefix + " has died" + locstring + " by " + imsourcename + ".", ChatFormatting.DARK_GREEN);
+
+		MessageFunctions.broadcastTranslatableMessage(world, "collective.villagerdeathmessages.message.diedby", ChatFormatting.DARK_GREEN, prefix, locationComponent, imsourcename);
 	}
 }
