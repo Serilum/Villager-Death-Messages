@@ -3,7 +3,6 @@ import net.minecraft.network.chat.Component;
 import com.natamus.collective.functions.MessageFunctions;
 
 import com.natamus.collective.functions.EntityFunctions;
-import com.natamus.collective.functions.StringFunctions;
 import com.natamus.villagerdeathmessages.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.damagesource.DamageSource;
