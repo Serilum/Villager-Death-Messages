@@ -1,7 +1,7 @@
-package com.natamus.villagerdeathmessages.config;
+package com.serilum.villagerdeathmessages.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.villagerdeathmessages.util.Reference;
+import com.serilum.villagerdeathmessages.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
