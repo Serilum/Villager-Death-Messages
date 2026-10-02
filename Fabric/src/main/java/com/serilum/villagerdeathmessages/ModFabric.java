@@ -1,10 +1,10 @@
-package com.natamus.villagerdeathmessages;
+package com.serilum.villagerdeathmessages;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveEntityEvents;
-import com.natamus.villagerdeathmessages.events.VillagerEvent;
-import com.natamus.villagerdeathmessages.util.Reference;
+import com.serilum.villagerdeathmessages.events.VillagerEvent;
+import com.serilum.villagerdeathmessages.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;

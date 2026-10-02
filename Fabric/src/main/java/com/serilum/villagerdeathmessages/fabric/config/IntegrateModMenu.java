@@ -1,7 +1,7 @@
-package com.natamus.villagerdeathmessages.fabric.config;
+package com.serilum.villagerdeathmessages.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.villagerdeathmessages.util.Reference;
+import com.serilum.villagerdeathmessages.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

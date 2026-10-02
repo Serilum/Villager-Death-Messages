@@ -1,10 +1,10 @@
-package com.natamus.villagerdeathmessages;
+package com.serilum.villagerdeathmessages;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.villagerdeathmessages.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.villagerdeathmessages.neoforge.events.NeoForgeVillagerEvent;
-import com.natamus.villagerdeathmessages.util.Reference;
+import com.serilum.villagerdeathmessages.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.villagerdeathmessages.neoforge.events.NeoForgeVillagerEvent;
+import com.serilum.villagerdeathmessages.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
