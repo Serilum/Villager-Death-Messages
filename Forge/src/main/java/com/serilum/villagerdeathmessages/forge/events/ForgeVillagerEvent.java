@@ -1,6 +1,6 @@
-package com.natamus.villagerdeathmessages.forge.events;
+package com.serilum.villagerdeathmessages.forge.events;
 
-import com.natamus.villagerdeathmessages.events.VillagerEvent;
+import com.serilum.villagerdeathmessages.events.VillagerEvent;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

@@ -1,10 +1,10 @@
-package com.natamus.villagerdeathmessages;
+package com.serilum.villagerdeathmessages;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.villagerdeathmessages.forge.config.IntegrateForgeConfig;
-import com.natamus.villagerdeathmessages.forge.events.ForgeVillagerEvent;
-import com.natamus.villagerdeathmessages.util.Reference;
+import com.serilum.villagerdeathmessages.forge.config.IntegrateForgeConfig;
+import com.serilum.villagerdeathmessages.forge.events.ForgeVillagerEvent;
+import com.serilum.villagerdeathmessages.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeVillagerEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeVillagerEvent.class);
 	}
 
 	private static void setGlobalConstants() {
