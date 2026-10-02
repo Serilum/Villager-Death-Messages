@@ -1,6 +1,6 @@
-package com.natamus.villagerdeathmessages;
+package com.serilum.villagerdeathmessages;
 
-import com.natamus.villagerdeathmessages.config.ConfigHandler;
+import com.serilum.villagerdeathmessages.config.ConfigHandler;
 
 public class ModCommon {
 

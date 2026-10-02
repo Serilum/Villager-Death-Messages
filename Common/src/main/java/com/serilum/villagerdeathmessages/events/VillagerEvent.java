@@ -1,9 +1,9 @@
-package com.natamus.villagerdeathmessages.events;
+package com.serilum.villagerdeathmessages.events;
 import net.minecraft.network.chat.Component;
 import com.natamus.collective.functions.MessageFunctions;
 
 import com.natamus.collective.functions.EntityFunctions;
-import com.natamus.villagerdeathmessages.config.ConfigHandler;
+import com.serilum.villagerdeathmessages.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
