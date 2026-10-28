@@ -1,7 +1,7 @@
-package com.natamus.villagerdeathmessages.forge.config;
+package com.serilum.villagerdeathmessages.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.villagerdeathmessages.util.Reference;
+import com.serilum.villagerdeathmessages.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
